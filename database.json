@@ -1,0 +1,42 @@
+{
+	"articles": [
+		{
+			"article" : "Cola",
+			"price" : "2,5",
+			"quantity" : "20"
+		},
+		{
+			"article" : "Fanta",
+			"price" : "2,5",
+			"quantity" : "20"
+		},
+		{
+			"article" : "Sprite",
+			"price" : "2,5",
+			"quantity" : "20"
+		},
+		{
+			"article" : "Apfelsaft",
+			"price" : "2",
+			"quantity" : "20"
+		},
+		{
+			"article" : "Mezzomix",
+			"price" : "2,5",
+			"quantity": "20"
+		},
+		{
+			"article" : "Wasser",
+			"price" : "1,5",
+			"quantity": "20"
+		}
+	],
+	"money":
+	{
+		"2E" : "10",
+		"1E" : "10",
+		"50C" : "20",
+		"20C" : "10",
+		"10C" : "10"
+	}
+}
