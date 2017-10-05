@@ -6,5 +6,11 @@
   "dependencies": {
     "cliui": "^3.2.0",
     "log-update": "^2.1.0"
+  },
+  "devDependencies": {
+    "xo": "^0.18.2"
+  },
+  "scripts": {
+    "test": "xo"
   }
 }
