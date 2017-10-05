@@ -33,7 +33,7 @@ ansi-align@^2.0.0:
   dependencies:
     string-width "^2.0.0"
 
-ansi-escapes@^1.1.0:
+ansi-escapes@^1.1.0, ansi-escapes@^1.3, ansi-escapes@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/ansi-escapes/-/ansi-escapes-1.4.0.tgz#d3a8a83b319aa67793662b13e761c7911422306e"
 
@@ -177,6 +177,17 @@ circular-json@^0.3.1:
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/circular-json/-/circular-json-0.3.3.tgz#815c99ea84f6809529d2f45791bdf82711352d66"
 
+cli-autocomplete@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/cli-autocomplete/-/cli-autocomplete-0.4.1.tgz#64913f1c0da04f1066f494f13c1cc820a8c42139"
+  dependencies:
+    ansi-escapes "^2.0.0"
+    chalk "^1.1.1"
+    cli-styles "^0.6.2"
+    prompt-skeleton "^0.4.0"
+    so "^1.0.1"
+    strip-ansi "^3.0.1"
+
 cli-boxes@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/cli-boxes/-/cli-boxes-1.0.0.tgz#4fa917c3e59c94a004cd61f8ee509da651687143"
@@ -192,6 +203,18 @@ cli-cursor@^2.0.0:
   resolved "https://registry.yarnpkg.com/cli-cursor/-/cli-cursor-2.1.0.tgz#b35dac376479facc3e94747d41d0d0f5238ffcb5"
   dependencies:
     restore-cursor "^2.0.0"
+
+cli-styles@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/cli-styles/-/cli-styles-0.6.2.tgz#24a002f632bd481fec8940e2f69d5ec639010e28"
+  dependencies:
+    ansi-escapes "^1.4.0"
+    chalk "^1.1.3"
+    figures "^2"
+    line-count "^0.1.0"
+    split-lines "^1.1.0"
+    string-width "^2.0.0"
+    window-size "^0.3.0"
 
 cli-width@^2.0.0:
   version "2.2.0"
@@ -652,6 +675,12 @@ figures@^1.3.5:
     escape-string-regexp "^1.0.5"
     object-assign "^4.1.0"
 
+figures@^2:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/figures/-/figures-2.0.0.tgz#3ab1a2d2a62c8bfb431a0c94cb797a2fce27c962"
+  dependencies:
+    escape-string-regexp "^1.0.5"
+
 file-entry-cache@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/file-entry-cache/-/file-entry-cache-2.0.0.tgz#c392990c3e684783d838b8c84a45d8a048458361"
@@ -1031,6 +1060,10 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
+line-count@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/line-count/-/line-count-0.1.0.tgz#3749ff3715980c1923096ff869428316bc22af35"
+
 load-json-file@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/load-json-file/-/load-json-file-1.1.0.tgz#956905708d58b4bab4c2261b04f59f31c99374c0"
@@ -1274,6 +1307,12 @@ parse-json@^2.2.0:
   dependencies:
     error-ex "^1.2.0"
 
+pass-stream@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/pass-stream/-/pass-stream-0.1.5.tgz#9e3afa4d5825cdd1376075bdb56de36dfb33649f"
+  dependencies:
+    readable-stream "https://github.com/jeffbski/readable-stream/archive/v1.0.2-object-transform2-ret-self.tar.gz"
+
 path-exists@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/path-exists/-/path-exists-2.1.0.tgz#0feb6c64f0fc518d9a754dd5efb62c7022761f4b"
@@ -1373,6 +1412,13 @@ progress@^1.1.8:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/progress/-/progress-1.1.8.tgz#e260c78f6161cdd9b0e56cc3e0a85de17c7a57be"
 
+prompt-skeleton@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/prompt-skeleton/-/prompt-skeleton-0.4.0.tgz#32692c3f524a3b46b9fa72264418c02d1fc3d0e4"
+  dependencies:
+    ansi-escapes "^1.3"
+    pass-stream "^0.1.5"
+
 proto-props@^0.2.0:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/proto-props/-/proto-props-0.2.1.tgz#5e01dc2675a0de9abfa76e799dfa334d6f483f4b"
@@ -1431,6 +1477,10 @@ readable-stream@^2.2.2:
     safe-buffer "~5.1.1"
     string_decoder "~1.0.3"
     util-deprecate "~1.0.1"
+
+"readable-stream@https://github.com/jeffbski/readable-stream/archive/v1.0.2-object-transform2-ret-self.tar.gz":
+  version "1.0.2"
+  resolved "https://github.com/jeffbski/readable-stream/archive/v1.0.2-object-transform2-ret-self.tar.gz#129e553a773186632e8b58939c58e6f607542b63"
 
 readline2@^1.0.1:
   version "1.0.1"
@@ -1573,6 +1623,10 @@ slice-ansi@0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/slice-ansi/-/slice-ansi-0.0.4.tgz#edbf8903f66f7ce2f8eafd6ceed65e264c831b35"
 
+so@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/so/-/so-1.0.1.tgz#8a791a06c823c0908851bb6dc65b7583185badf1"
+
 sort-keys@^1.1.1, sort-keys@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/sort-keys/-/sort-keys-1.1.2.tgz#441b6d4d346798f1b4e49e8920adfba0e543f9ad"
@@ -1592,6 +1646,10 @@ spdx-expression-parse@~1.0.0:
 spdx-license-ids@^1.0.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-1.2.2.tgz#c9df7a3424594ade6bd11900d596696dc06bac57"
+
+split-lines@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/split-lines/-/split-lines-1.1.0.tgz#3abba8f598614142f9db8d27ab6ab875662a1e09"
 
 sprintf-js@~1.0.2:
   version "1.0.3"
@@ -1772,6 +1830,10 @@ widest-line@^1.0.0:
   resolved "https://registry.yarnpkg.com/widest-line/-/widest-line-1.0.0.tgz#0c09c85c2a94683d0d7eaf8ee097d564bf0e105c"
   dependencies:
     string-width "^1.0.1"
+
+window-size@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/window-size/-/window-size-0.3.0.tgz#b8f0b66e325d22160751e496337e44b45b727546"
 
 wordwrap@~1.0.0:
   version "1.0.0"
