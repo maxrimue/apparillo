@@ -1,32 +1,32 @@
 {
 	"articles": [
 		{
-			"article" : "Cola",
+			"title" : "Cola",
 			"price" : "2,5",
 			"quantity" : "20"
 		},
 		{
-			"article" : "Fanta",
+			"title" : "Fanta",
 			"price" : "2,5",
 			"quantity" : "20"
 		},
 		{
-			"article" : "Sprite",
+			"title" : "Sprite",
 			"price" : "2,5",
 			"quantity" : "20"
 		},
 		{
-			"article" : "Apfelsaft",
+			"title" : "Apfelsaft",
 			"price" : "2",
 			"quantity" : "20"
 		},
 		{
-			"article" : "Mezzomix",
+			"title" : "Mezzomix",
 			"price" : "2,5",
 			"quantity": "20"
 		},
 		{
-			"article" : "Wasser",
+			"title" : "Wasser",
 			"price" : "1,5",
 			"quantity": "20"
 		}
