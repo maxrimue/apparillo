@@ -2,32 +2,32 @@
 	"articles": [
 		{
 			"title" : "Cola",
-			"price" : "2,5",
+			"price" : "2,50",
 			"quantity" : "20"
 		},
 		{
 			"title" : "Fanta",
-			"price" : "2,5",
+			"price" : "2,50",
 			"quantity" : "20"
 		},
 		{
 			"title" : "Sprite",
-			"price" : "2,5",
+			"price" : "2,50",
 			"quantity" : "20"
 		},
 		{
 			"title" : "Apfelsaft",
-			"price" : "2",
+			"price" : "2,00",
 			"quantity" : "20"
 		},
 		{
 			"title" : "Mezzomix",
-			"price" : "2,5",
+			"price" : "2,50",
 			"quantity": "20"
 		},
 		{
 			"title" : "Wasser",
-			"price" : "1,5",
+			"price" : "1,50",
 			"quantity": "20"
 		}
 	],
