@@ -12,17 +12,13 @@ function displayWelcome() {
 	console.log('Hey there! Have some stuff we have:');
 
 	for (const k in data.articles) {
-		if ({}.hasOwnProperty.call(data.articles, k)) {
-			const obj = data.articles[k];
-			ui.div(
-				`  ${chalk.bold(obj.article)}  ${obj.price}€  ${obj.quantity >= 1 ? chalk.green('IN STOCK') : chalk.red('OUT OF STOCK')}`
-			);
-		}
+		const obj = data.articles[k];
+		ui.div(
+			`  ${chalk.bold(obj.article)}  ${obj.price}€  ${obj.quantity >= 1 ? chalk.green('IN STOCK') : chalk.red('OUT OF STOCK')}`
+		);
 	}
 
 	console.log(ui.toString());
 }
 
-module.exports = {
-	displayWelcome
-};
+displayWelcome();
